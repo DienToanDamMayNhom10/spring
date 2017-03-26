@@ -1,0 +1,11 @@
+# [START appyaml]
+runtime: java
+runtime_config:
+   jdk: openjdk8
+   server: jetty9
+env: flex
+
+handlers:
+- url: /.*
+  script: this field is required, but ignored
+# [END appyaml]
